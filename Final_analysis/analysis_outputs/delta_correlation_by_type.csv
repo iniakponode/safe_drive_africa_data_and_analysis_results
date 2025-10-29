@@ -1,0 +1,5 @@
+,delta_speeding,delta_harsh_brake,delta_rapid_accel,delta_swerve
+delta_speeding,,,,
+delta_harsh_brake,,1.0,0.2063658791200918,0.2346671582289438
+delta_rapid_accel,,0.2063658791200918,1.0,0.17773244268362037
+delta_swerve,,0.2346671582289438,0.17773244268362037,1.0

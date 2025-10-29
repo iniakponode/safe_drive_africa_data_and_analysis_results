@@ -1,0 +1,5 @@
+=== BASIC COUNTS ===
+pre: drivers=54, trips=402, total_km=1749.9, trips_with_any_event=382 (95.0%), total_events=2537
+post: drivers=54, trips=400, total_km=1579.3, trips_with_any_event=357 (89.2%), total_events=1812
+all: drivers=54, trips=802, total_km=3329.2, trips_with_any_event=739 (92.1%), total_events=4349
+Driver-level mean Δ rate (post - pre): -0.2833 events/km

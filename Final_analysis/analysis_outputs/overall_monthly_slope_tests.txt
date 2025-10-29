@@ -1,0 +1,1 @@
+Overall monthly WLS slope test skipped (missing data or statsmodels).

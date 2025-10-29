@@ -1,0 +1,2 @@
+model,y,coef,se,RR_post_vs_pre,CI95_lo,CI95_hi
+Poisson+exposure (skipped: all zeros),speeding,,,1.0,,

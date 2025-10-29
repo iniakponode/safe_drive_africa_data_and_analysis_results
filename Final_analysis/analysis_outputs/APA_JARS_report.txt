@@ -1,0 +1,3 @@
+**Sample & Exposure.** We analyzed pre- and post-intervention trips with distance as exposure (events per km).Pre: drivers=54, trips=402, total distance=1749.9 km.Post: drivers=54, trips=400, total distance=1579.3 km.
+**Bayesian hierarchical model.** Skipped (PyMC/ArviZ unavailable, data empty, or convergence issue). Results rely on frequentist models.
+**Reporting standard.** Analyses follow JARS: data screening, exposure adjustment, model specification, effect sizes with uncertainty (CIs/CrIs), and sensitivity checks (short-trip exclusion; UBPK trimming).
