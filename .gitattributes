@@ -1,0 +1,19 @@
+alcohol_datasets/raw_datasets/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/computed_unsafe_behaviours_dataset/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/first_data_collection_data/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/post_dataset/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/post_dataset1/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/pre_dataset/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/pre_dataset1/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/questionnaire/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/second_exp_alcohol_dataset/** filter=lfs diff=lfs merge=lfs -text
+complete_dataset/combined_retraining_dataset.csv filter=lfs diff=lfs merge=lfs -text
+complete_dataset/second_exp_alcohol_datasetcomprehensive_model_comparison_all_algorithms.csv filter=lfs diff=lfs merge=lfs -text
+complete_dataset/data_exploration.ipynb filter=lfs diff=lfs merge=lfs -text
+
+# Temporarily exclude problematic PDFs from LFS
+*.pdf !filter !diff !merge
+alcohol_datasets/raw_datasets/Offline_models/figures/OOF_ConfusionMatrix_Bagging_DT_Phase2_Combined.pdf !filter !diff !merge
+complete_dataset/second_exp_alcohol_dataset/figures/*.pdf !filter !diff !merge
+complete_dataset/second_exp_alcohol_dataset/plots/*.pdf !filter !diff !merge
+complete_dataset/second_exp_alcohol_dataset/results/tree_structures/*.pdf !filter !diff !merge

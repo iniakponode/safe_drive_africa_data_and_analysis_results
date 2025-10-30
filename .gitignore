@@ -2,17 +2,9 @@
 /archive_unused_files_*/
 .workspace_scripts/archive_candidates.py
 
-# Large raw datasets and generated artifacts
-alcohol_datasets/raw_datasets/AIModel_inputs_data_processing_pipepline/
-alcohol_datasets/raw_datasets/Offline_models/
-alcohol_datasets/raw_datasets/model_outputs/
-alcohol_datasets/raw_datasets/aggregated_trip_data.csv
-alcohol_datasets/raw_datasets/min_max_values.json
-alcohol_datasets/raw_datasets/post_trip_cleaned.csv
-alcohol_datasets/raw_datasets/pre_trip_cleaned.csv
-alcohol_datasets/raw_datasets/model_evaluation.ipynb
-alcohol_datasets/raw_datasets/retrained_pruned_dt_model.pkl
-alcohol_datasets/raw_datasets/unsafe_behaviour_cleaned.csv
+# External raw sensor datasets (hosted on Kaggle)
+complete_dataset/pre_dataset/raw_sensor_data_cleaned.csv
+complete_dataset/pre_dataset1/raw_sensor_data_cleaned.csv
+complete_dataset/post_dataset/raw_sensor_data_cleaned.csv
+complete_dataset/post_dataset1/raw_sensor_data_cleaned.csv
 
-# Full recomputed dataset outputs
-complete_dataset/
