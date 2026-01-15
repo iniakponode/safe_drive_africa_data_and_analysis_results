@@ -1,4 +1,4 @@
-# Ignore archive snapshots created during workspace cleanup
+﻿# Ignore archive snapshots created during workspace cleanup
 /archive_unused_files_*/
 .workspace_scripts/archive_candidates.py
 
@@ -8,3 +8,13 @@ complete_dataset/pre_dataset1/raw_sensor_data_cleaned.csv
 complete_dataset/post_dataset/raw_sensor_data_cleaned.csv
 complete_dataset/post_dataset1/raw_sensor_data_cleaned.csv
 
+# Generated model files (large binaries - host separately if needed)
+complete_dataset/second_exp_alcohol_dataset/onnx_models/
+complete_dataset/second_exp_alcohol_dataset/pk_files_saved/*.pkl
+
+# Generated tree visualizations (can be reproduced from notebooks)
+complete_dataset/second_exp_alcohol_dataset/figures/bagging_dt_*.png
+complete_dataset/second_exp_alcohol_dataset/results/tree_structures/
+
+# Generated PDFs (keep PNG for version control, regenerate PDF as needed)
+complete_dataset/second_exp_alcohol_dataset/plots/*.pdf
